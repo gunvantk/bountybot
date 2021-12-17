@@ -140,10 +140,10 @@ export default async (guildMember: GuildMember, params: BountyCreateNew, guildID
 			timestamp: new Date().getTime(),
 			//TODO: fix edit functionality
 			// footer: {
-			// 	text: '👍 - publish | 📝 - edit | ❌ - delete | Please reply within 60 minutes',
+			// 	text: '👍 - publish | 📝 - discard | ❌ - delete | Please reply within 60 minutes',
 			// },
 			footer: {
-				text: '👍 - publish | ❌ - delete | Please reply within 60 minutes',
+				text: '👍 - publish | ❌ - discard | Please reply within 60 minutes',
 			},
 		}],
 	};
